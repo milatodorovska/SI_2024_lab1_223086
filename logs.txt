@@ -1,0 +1,33 @@
+commit 431f8fd359e2e10eefa8979bf360b0b1947011a0 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: mila500 <todorovska_mila@yahoo.com>
+Date:   Sun Apr 14 23:22:43 2024 +0200
+
+    Call method makeBigStringForm in main class
+
+commit deddc3abe2e608e73d9e0682f7e36324fdd6c8d9
+Author: mila500 <todorovska_mila@yahoo.com>
+Date:   Sun Apr 14 23:15:42 2024 +0200
+
+    Fix wrong condition in makeBigStringForm
+
+commit df6ab239d51ba3a5497eac4c8a0c5774b21931b4 (origin/bug1, bug1)
+Author: mila500 <todorovska_mila@yahoo.com>
+Date:   Sun Apr 14 23:18:57 2024 +0200
+
+    Call method filterOddLengtStrings in main class
+
+commit 55b410a92ff438a32b3d8eea12ee802743d41dc7
+Author: mila500 <todorovska_mila@yahoo.com>
+Date:   Sun Apr 14 23:12:12 2024 +0200
+
+    Fix wrong condition in filterOddLengtStrings
+
+commit e10c032fcca1c8fcc827f211f125d5f1327f845d
+Author: mila500 <todorovska_mila@yahoo.com>
+Date:   Sun Apr 14 23:04:57 2024 +0200
+
+    Add starter code
+
+commit ec5285117d9022af1293f9db66a52fbe9b2a4534
+Author: mila500 <todorovska_mila@yahoo.com>
+Date:   Sun Apr 14 15:51:17 2024 +0200

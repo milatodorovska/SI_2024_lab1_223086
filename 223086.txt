@@ -1,0 +1,63 @@
+4.Иницијализација на git во локален директориум
+- git init
+
+5.Поврзување на локален со оддалечен репозиториум
+- git remote add origin https://github.com/milatodorovska/SI_2024_lab1_223086.git
+- git remote -v (за проверка)
+
+6.Додавање на README.md
+- echo "Mila Todorovska 223086" > README.md
+- git add README.md  - git commit -m "Initial commit"
+
+7.Додавање на преостанатите фајлови
+- git add SILab1Main.java SILab1_1.java SILab1_2.java
+- git commit -m "Add starter code"
+
+8. git push origin master
+
+9. Креирање на гранки: git branch bug1, git branch bug2
+
+10. git checkout bug1
+11. Поправање на грешка во filterOddLengthStrings
+- Се менува == 0 во != 0 и потоа git add SILab1_1.java
+- git commit -m "Fix wrong condition in filterOddLengtStrings"
+
+12. git checkout bug2
+13. Се менува < во >= и потоа git add SILab1_2.java
+- git commit -m "Fix wrong condition in makeBigStringForm"
+
+14. git checkout bug1
+15. Додавање на системскиот повик во SILab1Main и потоа git add SILab1Main.java
+- git commit -m "Call method filterOddLengtStrings in main class"
+
+16. git checkout bug2
+17. git add SILab1Main.java, git commit -m "Call method makeBigStringForm in main class"
+
+18.Синхронизација:
+- git push origin master, git push origin bug1, git push origin bug2
+
+19. git checkout master
+20. git merge bug1
+21.Синхронизација:
+- git push origin master, git push origin bug1, git push origin bug2
+22. git checkout bug2 
+23. Rebase спрема master:
+- git rebase master --> се појавува конфликт кој се разрешува со git add SILab1Main.java
+- git rebase --continue
+24. git checkout master
+
+25. Спојување со bug2 гранката master
+- git merge bug2
+
+26. Синхронизација:
+- git push origin master, git push origin bug1, git push origin bug2
+- Има потреба од употреба на --force за bug2
+27. git push --force origin bug2
+
+28. git log --> Приказ на сите commits
+git add logs.txt, git add 223086.txt
+- git commit -m "Final commit"
+
+29. Синрхонизација
+- git push origin master, git push origin bug1, git push origin bug2
+
